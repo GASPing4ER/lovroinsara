@@ -43,24 +43,31 @@ const Countdown = () => {
     return () => clearInterval(timer);
   });
 
-  // console.log(timeRemaining.days);
-  // console.log(timeRemaining.hours);
-  // console.log(timeRemaining.minutes);
-  // console.log(timeRemaining.seconds);
-
   return (
     <div className={styles.countdown}>
       <div className={styles.unit}>
-        <span className={ebgaramond.className} suppressHydrationWarning>{timeRemaining.days}</span> Dni
+        <span className={ebgaramond.className} suppressHydrationWarning>
+          {timeRemaining.days}
+        </span>{" "}
+        Dni
       </div>
       <div className={styles.unit}>
-        <span className={ebgaramond.className} suppressHydrationWarning>{timeRemaining.hours}</span> Ur
+        <span className={ebgaramond.className} suppressHydrationWarning>
+          {timeRemaining.hours}
+        </span>{" "}
+        Ur
       </div>
       <div className={styles.unit}>
-        <span className={ebgaramond.className} suppressHydrationWarning>{timeRemaining.minutes}</span> Minut
+        <span className={ebgaramond.className} suppressHydrationWarning>
+          {timeRemaining.minutes}
+        </span>{" "}
+        Minut
       </div>
       <div className={styles.unit}>
-        <span className={ebgaramond.className} suppressHydrationWarning>{timeRemaining.seconds}</span> Sekund
+        <span className={ebgaramond.className} suppressHydrationWarning>
+          {timeRemaining.seconds}
+        </span>{" "}
+        Sekund
       </div>
     </div>
   );
