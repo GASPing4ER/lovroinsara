@@ -1,3 +1,12 @@
 .typeform {
     padding: 50px 0;
+    background-color: white;
+}
+
+.rsvp h1 {
+    font-size: 36px;
+}
+
+.rsvp {
+    text-align: center;
 }

@@ -22,6 +22,9 @@ export default function Home() {
         <CountdownSection />
       </div>
       <div suppressHydrationWarning className={styles.typeform}>
+        <div className={styles.rsvp}>
+          <h1>RSVP</h1>
+        </div>
         <div suppressHydrationWarning data-tf-live="01HS8ZBK3FZ0BC7DHKT1PZZFSW"></div>
         <script suppressHydrationWarning src="//embed.typeform.com/next/embed.js"></script>
       </div>
