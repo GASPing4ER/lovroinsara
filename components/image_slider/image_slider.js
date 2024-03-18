@@ -28,7 +28,7 @@ const ImageSlider = ({ images }) => {
           key={index}
           src={bg}
           alt=""
-          layout="fill"
+          fill
           className={index === currentBgIndex ? styles.active : styles.inactive}
         />
       ))}

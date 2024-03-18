@@ -14,7 +14,7 @@ const CountdownSection = () => {
   return (
     <div className={styles["countdown-section"]}>
       <div className={styles.card}>
-        <Image src={cardImage} alt="" className={styles.cardImage} />
+        <Image src={cardImage} alt="" className={styles.cardImage} fill/>
         <div className={styles.content}>
           <Image src={logo} alt="" />
           <div className={styles["inner-content"]}>
