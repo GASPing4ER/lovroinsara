@@ -1,10 +1,11 @@
 .typeform {
-    padding: 50px 0;
+    padding-top: 50px;
     background-color: white;
 }
 
 .rsvp h1 {
     font-size: 36px;
+    margin-bottom: 20px;
 }
 
 .rsvp {
