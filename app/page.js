@@ -1,5 +1,4 @@
-"use client"
-/* eslint-disable @next/next/no-sync-scripts */
+"use client";
 import CountdownSection from "@/components/countdown_section/countdown_section";
 import styles from "./page.module.css";
 import ImageSlider from "@/components/image_slider/image_slider";
@@ -20,13 +19,6 @@ export default function Home() {
       <ImageSlider images={backgrounds} />
       <div id="countdown">
         <CountdownSection />
-      </div>
-      <div suppressHydrationWarning className={styles.typeform}>
-        <div className={styles.rsvp}>
-          <h1>RSVP</h1>
-        </div>
-        <div suppressHydrationWarning data-tf-live="01HS8ZBK3FZ0BC7DHKT1PZZFSW"></div>
-        <script suppressHydrationWarning src="//embed.typeform.com/next/embed.js"></script>
       </div>
     </div>
   );
