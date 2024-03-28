@@ -11,6 +11,7 @@ import bgFive from "@/public/landing/image4.jpg";
 import bgSix from "@/public/landing/image5.jpg";
 import bgSeven from "@/public/landing/image6.jpg";
 import Info from "@/components/info/info";
+import General from "@/components/general/general";
 
 const backgrounds = [bgOne, bgTwo, bgThree, bgFour, bgFive, bgSix, bgSeven];
 
@@ -22,6 +23,7 @@ export default function Home() {
         <CountdownSection />
       </div>
       <Info />
+      <General />
     </div>
   );
 }
