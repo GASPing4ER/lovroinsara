@@ -24,7 +24,7 @@ const CountdownSection = () => {
           </div>
           <div className={styles["inner-content"]}>
             <h2>Praznovanje</h2>
-            <p>Kdaj? 20.04.2024 ob 19:00</p>
+            <p>Kdaj? 20.04.2024 ob 18:00</p>
             <p>Kje? Na Brezovici 50, Novo mesto</p>
           </div>
           <div className={styles["inner-content"]}>
