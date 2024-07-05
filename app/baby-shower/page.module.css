@@ -18,6 +18,13 @@
   font-style: italic;
 }
 
+.subheading {
+  font-size: 2rem;
+  color: #000;
+  font-weight: 300;
+  text-align: center;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -43,6 +50,34 @@
 }
 
 .reception {
-  height: 100vh;
+  min-height: 100vh;
   background-color: #dbd3c4;
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.people {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.person {
+  flex: 1;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.personName {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 300;
+  text-align: center;
+  margin-top: -25px;
 }
