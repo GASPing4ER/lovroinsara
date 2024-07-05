@@ -72,6 +72,18 @@ const BabyShowerPage = ({ searchParams }) => {
           Če te zanima, kdo je še povabljen na Baby Shower, pokukaj v oblačke in
           preveri, kdo vse bo tam!
         </p>
+        {/* Preload hover images */}
+        <div style={{ display: "none" }}>
+          {peopleIcon.map((icon, index) => (
+            <Image
+              key={index}
+              src={icon}
+              alt={`preload icon ${index}`}
+              width={1}
+              height={1}
+            />
+          ))}
+        </div>
         <div className={styles.people}>
           {people.map((person, index) => (
             <div
@@ -84,6 +96,7 @@ const BabyShowerPage = ({ searchParams }) => {
                 src={hoveredPerson === person ? peopleIcon[index] : cloudIcon}
                 alt="cloud icon"
                 width={250}
+                loading="lazy"
               />
               {hoveredPerson === person && (
                 <p className={styles.personName}>{person}</p>
