@@ -69,7 +69,7 @@ const BabyShowerPage = ({ searchParams }) => {
       <section className={styles.reception}>
         <h2 className={styles.subheading}>Kdo še pride?</h2>
         <p>
-          Če te zanima, kdo se še povabljen na Baby Shower, pokukaj v oblačke in
+          Če te zanima, kdo je še povabljen na Baby Shower, pokukaj v oblačke in
           preveri, kdo vse bo tam!
         </p>
         <div className={styles.people}>
