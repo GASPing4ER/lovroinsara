@@ -13,6 +13,29 @@ import cloudTwelve from "@/public/cloud/12.svg";
 import cloudThirteen from "@/public/cloud/13.svg";
 import cloudFourteen from "@/public/cloud/14.svg";
 
+export const obleke = [
+  "bombažne dekice",
+  "dolgi pajacki za spanje (št. 62+)",
+  "bodiji z dolgimi rokavi (št. 62+)",
+  "spalna vreča (št. 62+)",
+  "bombažni slinčki",
+];
+
+export const igrace = ["igralna podloga za dojenčke", "igrače za dojenčke"];
+
+export const higiena = [
+  "tetra plenice (bombažne)",
+  "brisače (za dojenčke - kvadratne s kapuco)",
+  "glavnik za dojenčke",
+  "termometer",
+  "prašek za dojenčke",
+  "mehčalec za dojenčke (npr. Frosch)",
+  "otroški termometer za vodo",
+  "naravno olje za nego dojenčkov (npr. mandljevo olje)",
+  "hladilno mazilo za dojenčke",
+  "vlažilni robčki (na vodni osnovi brez alkohola ali olja)",
+];
+
 export const people = [
   "Loti in Gašper",
   "Lev",

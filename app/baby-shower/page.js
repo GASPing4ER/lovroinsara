@@ -7,8 +7,11 @@ import calendarIcon from "@/public/calendar.svg";
 import clockIcon from "@/public/clock.svg";
 import locationIcon from "@/public/location.svg";
 import cloudIcon from "@/public/cloud.svg";
+import oblekeIcon from "@/public/obleke.svg";
+import igraceIcon from "@/public/igrace.svg";
+import higienaIcon from "@/public/higiena.svg";
 
-import { people, peopleIcon } from "@/constants";
+import { people, peopleIcon, obleke, igrace, higiena } from "@/constants";
 
 import { EB_Garamond } from "next/font/google";
 
@@ -103,6 +106,55 @@ const BabyShowerPage = ({ searchParams }) => {
               )}
             </div>
           ))}
+        </div>
+      </section>
+      <section className={styles.gifts}>
+        <p className={styles["special-p"]}>
+          *Če nama želiš kaj prinesti in nimaš ideje kaj oz. česa še nimava, je
+          tukaj nekaj čisto neobveznih idej iz najinega seznama nakupov, ki naju
+          še čakajo:
+        </p>
+        <div className={styles["list"]}>
+          <div className={styles["list-left"]}>
+            <Image src={oblekeIcon} alt="" width={200} />
+            {obleke.map((obleka, index) => (
+              <div key={index} className={styles.predlogi}>
+                <Image
+                  src={cloudIcon}
+                  alt="cloud icon"
+                  width={75}
+                  loading="lazy"
+                />
+                <p>{obleka}</p>
+              </div>
+            ))}
+            <Image src={igraceIcon} alt="" width={200} />
+            {igrace.map((igraca, index) => (
+              <div key={index} className={styles.predlogi}>
+                <Image
+                  src={cloudIcon}
+                  alt="cloud icon"
+                  width={75}
+                  loading="lazy"
+                />
+                <p>{igraca}</p>
+              </div>
+            ))}
+          </div>
+          <div className={styles["list-right"]}>
+            <Image src={higienaIcon} alt="" width={200} />
+            {higiena.map((item, index) => (
+              <div key={index} className={styles.predlogi}>
+                <Image
+                  src={cloudIcon}
+                  alt="cloud icon"
+                  width={75}
+                  loading="lazy"
+                />
+                <p>{item}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
     </>

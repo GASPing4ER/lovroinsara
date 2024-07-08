@@ -83,3 +83,115 @@
   text-align: center;
   margin-top: -25px;
 }
+
+.gifts {
+  min-height: 100vh;
+  background-color: #dbd3c4;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.special-p {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.list {
+  display: flex;
+  padding: 0 200px;
+  gap: 200px;
+}
+
+.list-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.predlogi {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.predlogi p {
+  font-size: 1.25rem;
+  text-align: left;
+}
+
+@media only screen and (max-width: 1450px) {
+  .list {
+    padding: 0 150px;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .list {
+    padding: 0 100px;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .list {
+    padding: 0 50px;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .list {
+    padding: 0 100px;
+    gap: 75px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .list {
+    padding: 0 50px;
+    gap: 50px;
+  }
+
+  .special-p {
+    padding: 0 50px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .list {
+    padding: 0 25px;
+    gap: 25px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .list {
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+  }
+
+  .list-right {
+    flex: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .list {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .list {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
