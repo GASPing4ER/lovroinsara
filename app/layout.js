@@ -7,7 +7,7 @@ export const cormorant = Cormorant_Garamond({
 });
 
 export const metadata = {
-  title: "Loti in Gašper",
+  title: "Sara in Lovro",
   description: "Najboljša poroka",
 };
 
