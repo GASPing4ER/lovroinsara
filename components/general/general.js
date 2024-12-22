@@ -4,7 +4,7 @@ import styles from "./general.module.css";
 const General = () => {
   return (
     <div className={styles.general}>
-      <Link href="#">
+      <Link href="https://docs.google.com/forms/d/e/1FAIpQLSdHHWW-rA558s9QW2plB046g4NJMCX65cPnJ97fk0zgE440MQ/viewform">
         <button>Potrditev udeležbe</button>
       </Link>
       <Link href="https://docs.google.com/spreadsheets/d/1KC-GraEexQispk2GsdejHyLSgQp_G6lDSL60sl4m2sY/edit">
