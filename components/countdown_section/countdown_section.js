@@ -19,8 +19,8 @@ const CountdownSection = () => {
           <div className={styles["inner-content"]}>
             <h2>Cerkvena poroka</h2>
             <p className={styles["comment"]}>
-              **Parkirne prostore pred cerkvijo pustite za najožje člane družine
-              in MPP band.
+              **Če je možno, ne parkirajte pred cerkvijo (rezervirano za najožje
+              člane družine, starejše in MPP band.)
             </p>
             <p className={styles["comment"]}>Alternative:</p>
             <div className={styles["options"]}>
