@@ -69,3 +69,17 @@
     display: none;
   }
 }
+
+.comment {
+  font-size: 14px !important;
+}
+
+.options {
+  display: flex;
+  gap: 10px;
+}
+
+.comment_link {
+  font-size: 14px !important;
+  text-decoration: underline;
+}
